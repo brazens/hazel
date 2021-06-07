@@ -3,7 +3,7 @@
 
 ## This article explains how to install Videt
 
-### install from css html
+### install from html
 Put the following between head and head
 ```html
 <head>
