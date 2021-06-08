@@ -43,11 +43,11 @@ You can change the background of the provided color or your own color.
       ...
       <a href="URL" class="... Bcolor">color is dasic</a>
       <a href="URL" class="... Bcolor-white"color is white</a>
-      <a href="URL" class="... Bcolor-white">color is gray</a>
-      <a href="URL" class="... Bcolor-white">color is red</a>
+      <a href="URL" class="... Bcolor-gray">color is gray</a>
+      <a href="URL" class="... Bcolor-red">color is red</a>
 ```
 > Examples of built-in colors.
-> example code : `<a href="URL" class="Button1 Fcolor Bcolor-white">color is red</a>` Change the button color by changing the Bcolor-white part.
+> example code : `<a href="URL" class="Button1 Fcolor Bcolor-white">color is white</a>` Change the button color by changing the `Bcolor-white` part.
 
 ### or change the color of your choice
 ```html
