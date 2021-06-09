@@ -7,7 +7,7 @@
 ##### Videt added left, center, right alignment as of alpha 0.0.3-HIR08A.
 
 ## apply
-#### If there is a part you want to apply, inside the tag <pre><code>{class="location-{left or center or right}"}</code></pre> Add.
+#### If there is a part you want to apply, inside the tag `class="location-{left or center or right}` Add.
 For example, to center a button provided by Videt:
 ```html
 <a href="URL" class="Button1 Bcolor Fcolor-white location-center">location-center</a>
