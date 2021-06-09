@@ -11,4 +11,4 @@ For example, to center a button provided by Videt:
 you can do it like
 
 ## location
-#### Videt에서 제공하는 왼쪽 및 오른쪽 정렬은 왼쪽에서 20px, 오른쪽에서 20px에 배치됩니다.
+#### The left and right alignment provided by Videt is placed at 20px from the left and 20px from the right.
