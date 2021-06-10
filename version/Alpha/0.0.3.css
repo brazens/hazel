@@ -258,6 +258,13 @@ body{
     margin-right: 20px;
 }
 
+.Document{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .Document h1{
     margin-top: 24px;
     margin-bottom: 16px;
@@ -322,6 +329,17 @@ body{
     border: 0px;
 }
 
+.Document li{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.Document li::before{
+    content: '\25FE ';
+}
+
 .Document .Del{
     display: block;
     text-decoration: line-through;
@@ -350,6 +368,14 @@ body{
     color: #5a5a5a;
 }
 
+.Document .Block-code .HTML:after{
+    content: '\003E';
+}
+
+.Document .Block-code .HTML:before{
+    content: '\003C';
+}
+
 .Document .Ic{
     font-style: italic;
 }
@@ -373,6 +399,7 @@ body{
     border-radius: 6px;
     font-size: 12px;
 }
+
 /* end of document */
 
 /* box */
