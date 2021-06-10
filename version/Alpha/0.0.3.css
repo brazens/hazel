@@ -32,6 +32,7 @@ What's new in 0.0.3-HIR08A
 - add color (yellow,ultramarine)
 - default location
 - Add document creation template (similar to markdown)
+- Add box
 */
 
 /* Videt is made with donations sponsored by https://www.patreon.com/leeminjun. */
@@ -373,3 +374,16 @@ body{
     font-size: 12px;
 }
 /* end of document */
+
+/* box */
+.Box {
+    display: block;
+    border: 2px solid #cfcfcf;
+    border-radius: 5px;
+    padding:15px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* box end */
