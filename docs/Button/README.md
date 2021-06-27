@@ -1,8 +1,8 @@
-<p align="center">
-   <a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="350" src="https://videt.xyz/images/videt_docs.png"></a>
-</p>
+# button
+Videt provides 6 pre-made buttons. Users can use any button they want.
 
----
+## Getting Started
+The types of pre-made buttons are basic, round, angled, basic with only border, round with only border, and angled button with only border.
 
-## Applying buttons
-
+## Examples
+> Click here to see example buttons.
