@@ -9,9 +9,6 @@
 ### install from html
 Put the following between head and head
 ```html
-<head>
-  ... 
   <!-- Install Videt -->
   <link rel="stylesheet" href="https://cdn.videt.xyz/css/0.1.0.min.css">
-</head>
 ```
