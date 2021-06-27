@@ -12,16 +12,15 @@ Put the following between head and head
 <head>
   ... 
   <!-- Install Videt -->
-  <link rel="stylesheet" href="https://videt.xyz/Download/alpha/{version}.css">
+  <link rel="stylesheet" href="https://cdn.videt.xyz/css/0.1.0.min.css">
 </head>
 ```
-> Install the {version} part with the current version or the previous version
 
 ### install from css
 Paste the following at the top of your css
 ```css
 @import ...
-@import url(https://videt.xyz/Download/alpha/{version}.css);
+@import url(https://cdn.videt.xyz/css/0.1.0.min.css);
 ```
 > Install the {version} part with the current version or the previous version
 
