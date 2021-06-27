@@ -22,7 +22,6 @@ Paste the following at the top of your css
 @import ...
 @import url(https://cdn.videt.xyz/css/0.1.0.min.css);
 ```
-> Install the {version} part with the current version or the previous version
 
 It is more practical to install with html than with css.
 
