@@ -2,7 +2,7 @@
 <p align="center">
    <a href="" target="_blank" rel="noopener noreferrer"><img width="100" src="https://img.shields.io/apm/l/vim-mode?" alt="videt_logo"></a>
    <a href="https://discord.gg/CQEYPHUEVn" target="_blank" rel="noopener noreferrer"><img width="136" src="https://img.shields.io/discord/849937552400056320?color=%235865F2&label=Discord" alt="videt_logo"></a>
-   <a href="https://discord.gg/CQEYPHUEVn" target="_blank" rel="noopener noreferrer"><img width="155" src="https://img.shields.io/badge/Version-Alpha%200.0.3-brightgreen" alt="videt_logo"></a>
+   <a href="https://discord.gg/CQEYPHUEVn" target="_blank" rel="noopener noreferrer"><img width="135" src="https://img.shields.io/badge/Version-V%200.1.0-brightgreen" alt="videt_logo"></a>
 </p>
  
 <h1 align="center">About videt</h1>
