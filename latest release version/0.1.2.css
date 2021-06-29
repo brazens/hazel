@@ -24,7 +24,7 @@ SOFTWARE.
 */
 
 /* 
-What's new in 0.1.1 - B , 0.1.0 release version
+What's new in 0.1.2 - A
 */
 
 /* Videt is made with donations sponsored by https://www.patreon.com/leeminjun. */
@@ -201,6 +201,17 @@ body{
     background-color: #f5f5f5;
     border: 1px solid #f5f5f5;
 }
+
+.bg-sky {
+    background-color: #8ec1e9;
+    border: 1px solid #8ec1e9;
+}
+
+.bg-purple {
+    background-color: #684d77;
+    border: 1px solid #684d77;
+}
+
  
 /* text*/
 
@@ -250,6 +261,14 @@ body{
 
 .text-color-smoke{
     color: #f5f5f5;
+}
+
+.text-color-sky {
+    color: #8ec1e9;
+}
+
+.text-color-purple {
+    color: #684d77;
 }
 
 .text-left {
@@ -357,6 +376,16 @@ body{
     border: 1px solid #e9e9e9;
 }
 
+.hover-bg-sky:hover{
+    background-color: #97c0e0;
+    border: 1px solid #97c0e0;
+}
+
+.hover-bg-purple:hover{
+    background-color: #675173;
+    border: 1px solid #675173;
+}
+
 .hover-border:hover {
     border: 1px solid #549fee;
 }
@@ -392,6 +421,14 @@ body{
 }
 .hover-border-smoke:hover{
     border: solid #e9e9e9;
+}
+
+.hover-border-sky:hover{
+    border: solid #97c0e0;
+}
+
+.hover-border-purple:hover{
+    border: solid #675173;
 }
 
 .hover-text:hover{
@@ -442,6 +479,15 @@ body{
     color: #e9e9e9;
 }
 
+.hover-text-sky:hover{
+    color: #97c0e0;
+}
+
+.hover-text-purple:hover{
+    color: #675173;
+}
+
+
 /* borde */
 .border {
     border: 1px solid #007bff;
@@ -479,6 +525,12 @@ body{
 }
 .border-smoke {
     border: 1px solid #f5f5f5;
+}
+.border-sky {
+    border: 1px solid #8ec1e9;
+}
+.border-purple {
+    border: 1px solid #684d77;
 }
 
 /* bold,italic */
@@ -911,4 +963,76 @@ body{
   
   tr:nth-child(even) {
     background-color: #e2e2e2;
+  }
+
+/* img */
+.img-opac-10{
+    opacity: 1;
+}
+.img-opac-9{
+    opacity: 0.9;
+}
+.img-opac-8{
+    opacity: 0.8;
+}
+.img-opac-7{
+    opacity: 0.7;
+}
+.img-opac-6{
+    opacity: 0.6;
+}
+.img-opac-5{
+    opacity: 0.5;
+}
+.img-opac-4{
+    opacity: 0.4;
+}
+.img-opac-3{
+    opacity: 0.3;
+}
+.img-opac-2{
+    opacity: 0.2;
+}
+.img-opac-1{
+    opacity: 0.1;
+}
+
+/* Tool tip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
   }
