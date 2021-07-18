@@ -1,4 +1,4 @@
-<p align="center"><a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="350" src="http://videt.xyz/images/full_logo.png"></a></p>
+<p align="center"><a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="350" src="https://videt.xyz/images/full_logo.png"></a></p>
 <p align="center">
    <a href="" target="_blank" rel="noopener noreferrer"><img width="100" src="https://img.shields.io/apm/l/vim-mode?" alt="videt_logo"></a>
    <a href="#" target="_blank" rel="noopener noreferrer"><img width="135" src="https://img.shields.io/badge/Version-V%200.1.2-brightgreen" alt="videt_logo"></a>
