@@ -1,5 +1,5 @@
 <p align="center">
-   <a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="350" src="https://videt.xyz/images/videt_docs.png"></a>
+   <a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="150" src="https://videt.xyz/images/logo.png"></a>
 </p>
 
 ---
