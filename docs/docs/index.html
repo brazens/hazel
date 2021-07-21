@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://videt.xyz/style.css">
+    <link rel="stylesheet" href="https://cdn.videt.xyz/css/0.1.2.min.css">
+    <link rel="stylesheet" href="./docs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://videt.xyz/images/logo.png">
+    <title>videt CSS Framework - Documentation</title>
+</head>
+<body>
+    <nav class="nav text-capit w-nav1 bqlf">
+        <a class="name text-color-white hover-text-white">videt</a>
+        <div class="w-nav2">
+            <a href="https://videt.xyz/docs" class="text-color-white hover-text-white">Documentation</a> 
+            <a href="https://videt.xyz/team" class="text-color-white hover-text-white">Team</a>
+            <a href="https://twitter.com/webVidet" class="text-color-white hover-text-white">Twitter</a>
+            <a href="https://videt.xyz/support" class="text-color-white hover-text-white">Support</a>
+            <a href="https://github.com/webvidet" class="text-color-white hover-text-white">Github</a>
+        </div>
+    </nav>
+    <aside class="sidebar bg-white">
+        <a class="text-bold" style="font-size: 20px;">Getting Started</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke" href="#Introduction">introduction</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke" href="#Installation">Installation</a>
+        <a class="text-bold" style="font-size: 23px;">Utilities</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke" href="#color">Color</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#image">Image</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#text">Text</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#hover">Hover</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#border">Border</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#position">position</a>
+        <a class="text-bold" style="font-size: 20px;">Components</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#button">Button</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#navs">Navs</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#docs">Docs</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#progress-bar">Progress Bar</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#card">Card</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#table">Table</a>
+        <a class="text-color-black hover-text-black bg-white hover-bg-smoke"  href="#tooltip">tooltip</a>
+        <a style="font-size: 12px; padding-bottom: 150px;">current version : 0.1.2</a>
+    </aside>
+    <div class="docs docs-1 docs-con">
+        <h1 id="Introduction">Introduction</h1>
+        <p class="conn">videt means "to see" in Czech. As the meaning of videt, videt is a web framework for building visually visible elements simply and neatly.' videt can be integrated with other libraries to build a variety of visual systems, and has full web support.videt is an MIT-licensed open source project that anyone can use for free.</p>
+        <p class="quote-red">Warning : Videt does not support IE9 or earlier.</p>
+        <h1 id="Installation">Installation</h1>
+        <p class="conn">Paste the stylesheet <code class="dt">link</code> to load the CSS</p>
+        <div class="block-code">
+            <code>&lt;link rel="stylesheet" href="https://cdn.videt.xyz/css/0.1.2.min.css"&gt;</code>
+         </div>
+        <h1 id="Color">Color</h1>
+        <p class="conn">We made it possible to use these different colors for every part. You can use these colors for most color areas such as background, text color, and border.</p>
+        <h3>text</h3>
+        <div class="dbox">
+            <p class="text-color">.text-color</p>
+            <p class="text-color-blue">.text-color-blue</p>
+            <p class="text-color-white bg-black">.text-color-white</p>
+            <p class="text-color-black">.text-color-black</p>
+            <p class="text-color-dark">.text-color-dark</p>
+            <p class="text-color-gray">.text-color-gray</p>
+            <p class="text-color-green">.text-color-green</p>
+            <p class="text-color-red">.text-color-red</p>
+            <p class="text-color-pink">.text-color-pink</p>
+            <p class="text-color-yellow bg-black">.text-color-yellow</p>
+            <p class="text-color-aqua">.text-color-aqua</p>
+            <p class="text-color-sky">.text-color-sky</p>
+            <p class="text-color-purple">.text-color-purple</p>
+            <p class="text-color-smoke bg-dark">.text-color-smoke</p>
+         <div class="block-code text-bold">
+            <code>&lt;p class="text-color"&gt;.text-color&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-blue"&gt;.text-color-blue&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-white bg-black"&gt;.text-color-white&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-black"&gt;.text-color-black&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-dark"&gt;.text-color-dark&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-gray"&gt;.text-color-gray&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-green"&gt;.text-color-green&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-red"&gt;.text-color-red&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-pink"&gt;.text-color-pink&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-yellow bg-black"&gt;.text-color-yellow&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-aqua"&gt;.text-color-aqua&lt;/p</code> <br>
+            <code>&lt;p class="text-color-sky"&gt;.text-color-sky&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-purple"&gt;.text-color-purple&lt;/p&gt;</code> <br>
+            <code>&lt;p class="text-color-smoke bg-dark"&gt;.text-color-smoke&lt;/p&gt;</code>
+         </div>
+         </div>
+        <p class="conn">Text color can be defined as <code class="dt">.text-color-*</code></p>
+        <p class="quote-blue">Exception : if hover is used, text color is defined as "hover-text-*"</p>
+        <h3>Background</h3>
+        <div class="dbox">
+            <p class="bg text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-basic</p>
+            <p class="bg-blue text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-blue</p>
+            <p class="bg-white text-color-black text-bold border-dark" style="font-size: 20px; padding: 5px;">.bg-white</p>
+            <p class="bg-black text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-black</p>
+            <p class="bg-dark text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-dark</p>
+            <p class="bg-gray text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-gray</p>
+            <p class="bg-green text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-green</p>
+            <p class="bg-red text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-red</p>
+            <p class="bg-pink text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-pink</p>
+            <p class="bg-yellow text-color-dark text-bold" style="font-size: 20px; padding: 5px;">.bg-yellow</p>
+            <p class="bg-aqua text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-aqua</p>
+            <p class="bg-smoke text-color-black text-bold" style="font-size: 20px; padding: 5px;">.bg-smoke</p>
+            <p class="bg-sky text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-sky</p>
+            <p class="bg-purple text-color-white text-bold" style="font-size: 20px; padding: 5px;">.bg-purple</p>
+            <div class="block-code text-bold">
+               <code>&lt;p class="bg text-color-white text-bold"&gt;.bg&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-blue text-color-white text-bold"&gt;.bg-blue&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-white text-color-black text-bold border-dark"&gt;.bg-white&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-black text-color-white text-bold"&gt;.bg-black&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-dark text-color-white text-bold"&gt;.bg-dark&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-gray text-color-white text-bold"&gt;.bg-gray&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-green text-color-white text-bold"&gt;.bg-green&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-red text-color-white text-bold&gt;.bg-red&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-pink text-color-white text-bold"&gt;.bg-pink&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-yellow text-color-dark text-bold"&gt;.bg-yellow&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-aqua text-color-white text-bold"&gt;.bg-aqua&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-smoke text-color-black text-bold"&gt;.bg-sky&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-sky text-color-white text-bold"&gt;.bg-purple&lt;/p&gt;</code> <br>
+               <code>&lt;p class="bg-purple text-color-white text-bold"&gt;.bg-smoke&lt;/p&gt;</code>
+            </div>
+         </div>
+        <p class="conn">The background color is defined as <code class="dt">.bg-*</code></p>
+        <h3>hover text,background</h3>
+        <div class="dbox">
+                  <p class="bg hover-bg text-color-white text-bold" style="font-size: 20px; padding: 5px;">.hover-bg</p>
+                  <p class="bg-smoke text-color-sky hover-text-black text-bold" style="font-size: 20px; padding: 5px;">.hover-bg</p>
+                  <div class="block-code text-bold">
+                     <code>&lt;p class="bg hover-bg text-color-white text-bold"&gt;.bg .hover-bg&lt;/p&gt;</code> <br>
+                     <code>&lt;p class="text-color-white hover-text-black text-bold"&gt;.text-color-sky .hover-text-black&lt;/p&gt;</code>
+                  </div>
+               </div>
+        <p class="conn">To create hover background and text color you can do it with <code class="dt">.hover-bg-*</code> and <code class="dt">.hover-text-*</code></p>
+        <h1 id="Image">Image</h1>
+        <p class="conn">It is designed to make it easy to change the transparency of an image. You can adjust the transparency with <code class="dt">.img-opac-*</code> , max value is 10 and min value is 1.</p>
+        <div class="dbox">
+            <img class="img-opac-1 center" style="width: 100px;" src="https://videt.xyz/images/logo.png">
+            <div class="block-code">
+                <code>&lt;img class="img-opac-1 center" style="width: 100px;" src="https://videt.xyz/images/full_logo.png"&gt;</code>
+            </div>
+        </div>
+        <p class="quote-red" style="margin-top: 20px;">The maximum value of 10 is the same as the original image.</p>
+        <h1 id="Text">Text</h1>
+        <p class="conn">All text properties consist of <code class="dt">.text-*</code></p>
+        <div class="dbox">
+            <code class="dt">text-color-*</code> : Change color. <a class="text-color text-line-none" href="#Color">Read more</a><br>
+            <code class="dt">ext-left</code> : Left-aligns text.<br>
+            <code class="dt">text-center</code> : Center the text.<br>
+            <code class="dt">text-right</code> : Right-aligns text.<br>
+            <code class="dt">text-upper</code> : Change all text to uppercase.<br>
+            <code class="dt">text-lower</code> : Change all letters to lowercase.<br>
+            <code class="dt">text-capit</code> : Capitalizes only the beginning of a word.<br>
+            <code class="dt">text-line-top</code> : A line is displayed above the text.<br>
+            <code class="dt">text-line-center</code> : A line is displayed in the middle of the text.<br>
+            <code class="dt">text-line-bottom</code> : A line is displayed below the text.<br>
+            <code class="dt">text-line-none</code> : The line of text disappears. (You can delete a line by adding a hyperlink.)<br>
+            <code class="dt">text-overflow</code> : If the text exceeds a certain part, it is displayed as ...<br>
+            <code class="dt">text-normal</code> : Default text.<br>
+            <code class="dt">text-slant</code> or <code class="dt">text-italic</code> : The text is slanted.<br>
+            <code class="dt">text-bold</code> : Makes text bold.<br>
+            <code class="dt">text-bolder</code> : Makes text bolder than the value inherited.<br>
+            <code class="dt">text-lighter</code> : Makes it thinner than the value inherited from the text.<br>
+            <code class="dt">text-italic-bold</code> or <code class="dt">text-slant-bold</code> : text bold and slanted.
+        </div>
+        <h1 id="Hover">Hover</h1>
+        <p class="conn">hover properties are defined as <code class="dt">hover-*</code></p>
+        <p><code class="dt">hover-bg-{color}</code> : Change the background color with {color}.</p>
+        <p><code class="dt">hover-text-{color}</code> : Change the text color with {color}.<br></p>
+        <p><code class="dt">hover-border-{color}</code> : Change the border color with {color}.</p>
+        <a href="#Color" class="text-color hover-text text-line-none"><p>Read more</p></a>
+        <h1 id="Border">Border</h1>
+        <p class="conn"> border properties are defined as <code class="dt">border-*</code> </p>
+        <p><code class="dt">border-{color}</code> : Change the border color with {color}.</p>
+        <a href="https://videt.xyz/docs/0.1.x/en/color" class="text-color hover-text text-line-none"><p>Read more</p></a>
+        <h1 id="position">position</h1>
+        <p class="conn">position properties are defined as <code class="dt">left , center , right</code> </p>
+        <p><code class="dt">left</code> : align position to the left.</p>
+        <p><code class="dt">center</code> : align position to the center.</p>
+        <p><code class="dt">right</code> : align position to the right.</p>
+        <div class="dbox">
+            <p class="left">hello world! left</p>
+            <p class="center">hello world! center</p>
+            <p class="right">hello world! right</p>
+                <div class="block-code">
+                    <code>&lt;p class="left"&gt;hello world! left&lt;p&gt;</code><br>
+                    <code>&lt;p class="center"&gt;hello world! center&lt;p&gt;</code><br>
+                    <code>&lt;p class="right&gt;hello world! right&lt;p&gt;</code>
+                </div>
+            </div>
+        <h1 id="Button">Button</h1>
+        <p class="conn">
+            Use button styles that support different sizes and shapes.
+            button properties are defined as <code class="dt text-bold">btn-*</code>
+
+            <p class="text-bold">normal button</p>
+            <code class="dt text-bold">btn</code> : Create a basic button.<br>
+            <code class="dt text-bold">btn-angled</code> : Creates a button with right angles.<br>
+            <code class="dt text-bold">btn-round</code> : Creates a button with slightly rounded corners.<br>
+
+            <p class="text-bold">button with border only</p>
+            <code class="dt text-bold">btn-border</code> : Basic buttons have only borders.<br>
+            <code class="dt text-bold">btn-border-angled</code> : Buttons with right angles have only borders.<br>
+            <code class="dt text-bold">btn-border-round</code> : Buttons with slightly rounded corners have only a border.<br>
+        </p>
+        <div class="dbox">
+            <h3>normal button</h3>
+            <button class="btn bg text-color-white">.btn</button>
+            <button class="btn-angled bg text-color-white">.btn-angled</button>
+            <button class="btn-round bg text-color-white">.btn-round</button>
+            <div class="block-code">
+                <code class="CHTML">button class="btn bg text-color-white"</code>.btn<code class="CHTML">/button</code><br>
+                <code class="CHTML">button class="btn-angled bg text-color-white"</code>.btn-angled<code class="CHTML">/button</code><br>
+                <code class="CHTML">button class="btn-round bg text-color-white"</code>.btn-round<code class="CHTML">/button</code>
+            </div>
+        </div>
+        <div class="dbox" style="margin-bottom: 20px;">
+            <h3>button with border only</h3>
+            <button class="btn-border border">.btn-border</button>
+            <button class="btn-border-angled border">.btn-border-angled</button>
+            <button class="btn-border-round border">.btn-border-round</button>
+            <div class="block-code">
+                <code>&lt;button class="btn-border border"&gt;.btn-border&lt;/button&gt;</code><br>
+                <code>&lt;button class="btn-border-angled border"&gt;.btn-border-angled&lt;/button&gt;</code><br>
+                <code>&lt;button class="btn-border-round border"&gt;.btn-border-round&lt;/button&gt;</code>
+            </div>
+        </div>
+        <p class="quote-blue">
+            Button tags : 
+            <code class="dtc text-bold">.btn</code> can be used not only in <code class="dtt text-bold">button</code> tag but also in <code class="dtt text-bold">a</code> tag.
+        </p>
+        <h1 id="Navs">Navs</h1>
+        <p class="conn">If you use videt
+             navs basic components, you can create fast.<br>You can explore the basic configuration with the following example.</p>
+        <div class="dbox" style="margin-bottom: 20px;">
+            <div class="nav bg">
+                <a href="#" class="name text-color-white hover-text-white">example</a>
+                <div class="nav-right">
+                    <a href="#home" class="text-color-white hover-text-white">home</a> 
+                    <a href="#team" class="text-color-white hover-text-white">Team</a>
+                    <a href="#forum" class="text-color-white hover-text-white">forum</a>
+                    <a href="#support" class="text-color-white hover-text-white">Support</a>
+                </div> 
+            </div>
+            <div class="block-code">
+                &lt;div class="nav bg"><br>
+                &lt;a href="#" class="name text-color-white hover-text-white">example&lt;/a><br>
+                &lt;div class="nav-right"><br>
+                &lt;a href="#home" class="text-color-white hover-text-white">home&lt;/a><br>
+                &lt;a href="#team" class="text-color-white hover-text-white">Team&lt;/a><br>
+                &lt;a href="#forum" class="text-color-white hover-text-white">forum&lt;/a><br>
+                &lt;a href="#support" class="text-color-white hover-text-white">Support&lt;/a><br>
+                &lt;/div><br>
+                &lt;/div>
+            </div>
+        </div>
+        <p class="quote-blue">It's in public beta test!</p>
+        <h1 id="Docs">Docs</h1>
+        <p class="quote-red">This is not a public feature yet! BETA ONLE !</p>
+        <h1 id="progress-bar">Progress Bar</h1>
+        <p class="conn">You can create preconfigured progress bars.<br>Here's a configured code example:</p>
+        <div class="dbox" style="margin-bottom: 20px;">
+            <div class="progress">
+                <div class="bar bg text-color-white" style="width: 25%;">25%</div>
+            </div>
+            <div class="progress">
+                <div class="bar bg-green text-color-white" style="width: 50%;">50%</div>
+            </div>
+            <div class="block-code">
+                &lt;div class="progress"><br>
+                   &lt;div class="bar bg text-color-white" style="width: 25%;">25%&lt;/div><br>
+                &lt;/div><br>
+                &lt;div class="progress"><br>
+                   &lt;div class="bar bg-green text-color-white" style="width: 50%;">50%&lt;/div><br>
+                &lt;/div>
+            </div>
+        </div>
+        <p class="quote-blue">It's in public beta test!</p>
+        <h1 id="Card">Card</h1>
+        <p class="quote-red">This is not a public feature yet! BETA ONLE !</p>
+        <h1 id="Table">Table</h1>
+        <p class="conn">This is the basic videt table design. We plan to add tables of various designs in the future.</p>
+        <div class="dbox" style="margin-bottom: 20px;">
+            <table>
+                <tr>
+                  <th>country</th>
+                  <th>name</th>
+                  <th>age</th>
+                </tr>
+                <tr>
+                  <td>Republic of Korea</td>
+                  <td>Daeun Lee</td>
+                  <td>19</td>
+                </tr>
+                <tr>
+                  <td>Japan</td>
+                  <td>Yuki</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>United States</td>
+                  <td>Josh</td>
+                  <td>17</td>
+                </tr>
+              </table>
+            <div class="block-code">
+                &lt;table><br>
+                &lt;tr><br>
+                        &lt;th>country&lt;/th><br>
+                      &lt;th>name&lt;/th><br>
+                      &lt;th>age&lt;/th><br>
+                      &lt;/tr><br>
+                    &lt;tr><br>
+                      &lt;td>Republic of Korea&lt;/td><br>
+                      &lt;td>Daeun Lee&lt;/td><br>
+                      &lt;td>19&lt;/td><br>
+                      &lt;/tr><br>
+                    &lt;tr><br>
+                        &lt;td>Japan&lt;/td><br>
+                      &lt;td>Yuki&lt;/td><br>
+                      &lt;td>24&lt;/td><br>
+                      &lt;/tr><br>
+                    &lt;tr><br>
+                        &lt;td>United States&lt;/td><br>
+                      &lt;td>Josh&lt;/td><br>
+                      &lt;td>17&lt;/td><br>
+                      &lt;/tr><br>
+                    &lt;/table>
+            </div>
+        </div>
+        <p class="quote-blue">It's in public beta test!</p>
+        <h1 id="tooltip">tooltip</h1>
+        <p class="quote-red">This is not a public feature yet! BETA ONLE !</p>
+    </div>
+
+    <footer class="center wegkwe">
+        <a href="https://github.com/webvidet/Videt/blob/main/LICENSE" style="display: inline;" class="text-line-none text-bold text-color-black">MIT Licensed</a>  | <p style="display: inline;">Copyright © 2021 </p> <a style="display: inline;" class="text-line-none text-bold text-color-black" href="https://github.com/devkr-potato">LEE Minjun</a>
+    </footer>
+</body>
+</html>
