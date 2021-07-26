@@ -1,0 +1,1710 @@
+/*
+
+* Videt CSS V0.2.0 - test
+* web - videt.xyz
+* docs - videt.xyz/docs
+* Copyright 2021, LEE minjun and videt
+* Free to use under the MIT license.
+
+
+key information
+––––––––––––––––––––––––––––––––––––––––––––––––––
+LICENSE 
+> MIT License
+
+developer : LEE minjun(https://github.com/devkr-potato)
+
+last modified
+> 07/26/2021
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+support
+––––––––––––––––––––––––––––––––––––––––––––––––––
+> Maintaining and developing our project requires adequate finance.
+However, since we are MIT-licensed open source and completely free,
+the project cannot be maintained without a sponsor. Become a Backer
+or Sponsor for Project Maintenance and Development!
+
+patreon : https://www.patreon.com/leeminjun
+open collective : https://opencollective.com/webvidet
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- button
+- nav
+- background
+- text
+- hover
+- borde
+- position
+- box
+- document
+- scroll bar
+- progress Bar
+- card
+- Table
+- img
+- Tool tip
+- container , grid
+- [insight]angle
+––––––––––––––––––––––––––––––––––––––––––––––––––
+
+*/
+
+body{
+	margin: 0;
+}
+
+/* button */
+.btn {
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+.btn-angled{
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+.btn-round{
+    border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+
+.btn-border{
+    background-color: unset;
+    border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+
+.btn-border-angled{
+    background-color: unset;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+
+.btn-border-round{
+    background-color: unset;
+    border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+
+
+/* menu , navs */
+/*
+NOTE
+> 07/26/2021 - input[type=text] : add
+> 
+*/
+.nav-left {
+    float: left;
+}
+.nav-right {
+float: right;
+}
+.nav-center {
+display: table; margin-left: auto; margin-right: auto;
+}
+
+.nav {
+overflow: hidden;
+padding: 5px 20px;
+}
+.nav a {
+float: left;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
+}
+.nav a.name {
+font-size: 25px;
+font-weight: bold;
+}
+.nav input[type=text] {
+float: right;
+padding: 6px;
+border: none;
+margin-top: 8px;
+margin-right: 16px;
+font-size: 17px;
+}
+  
+@media screen and (max-width: 500px) {
+    .nav a, .nav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .nav-left , .nav-center , .nav-right{
+        float: none;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+/* background */
+.bg {
+	background-color:#007bff;
+	border:1px solid #007bff;
+}
+
+.bg-blue{
+	background-color:#0000ff;
+	border:1px solid #0000ff;
+}
+
+.bg-white {
+	background-color:#ffffff;
+	border:1px solid #ffffff;
+}
+
+.bg-black{
+	background-color:#000000;
+	border:1px solid #000000;
+}
+
+.bg-dark{
+	background-color:#161616;
+	border:1px solid #161616;
+}
+
+.bg-gray {
+	background-color:#3C3C3C;
+    border:1px solid #3C3C3C;
+}
+
+.bg-green {
+	background-color:#0CDA17;
+    border:1px solid #0CDA17;
+}
+
+.bg-red {
+	background-color:#EB2A0C;
+    border:1px solid #EB2A0C;
+}
+
+.bg-pink {
+    background-color:#F06FEC;
+    border:1px solid #F06FEC;
+}
+
+.bg-yellow {
+    background-color:#FFFF00;
+    border:1px solid #FFFF00;
+}
+
+.bg-aqua {
+	background-color:#0099a4;
+	border:1px solid #0099a4;
+}
+
+.bg-smoke {
+    background-color: #f5f5f5;
+    border: 1px solid #f5f5f5;
+}
+
+.bg-sky {
+    background-color: #8ec1e9;
+    border: 1px solid #8ec1e9;
+}
+
+.bg-purple {
+    background-color: #684d77;
+    border: 1px solid #684d77;
+}
+
+ 
+/* text */
+
+.text-color {
+	color:#007bff;
+}
+
+.text-color-blue{
+	color:#0000ff;
+}
+
+.text-color-white {
+	color:#ffffff;
+}
+
+.text-color-black {
+	color:#000000;
+}
+
+.text-color-dark {
+    color:#161616;
+}
+
+.text-color-gray {
+	color:#3C3C3C;
+}
+
+.text-color-green {
+	color:#0CDA17;
+}
+
+.text-color-red {
+	color:#EB2A0C;
+}
+
+.text-color-pink {
+    color:#F06FEC;
+}
+
+.text-color-yellow {
+	color:#FFFF00;
+}
+
+.text-color-aqua {
+	color: #0099a4;
+}
+
+.text-color-smoke{
+    color: #f5f5f5;
+}
+
+.text-color-sky {
+    color: #8ec1e9;
+}
+
+.text-color-purple {
+    color: #684d77;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.text-lower {
+    text-transform: lowercase;
+}
+
+.text-capit {
+    text-transform: capitalize;
+}
+
+.text-line-top {
+    text-decoration: overline;
+}
+
+.text-line-center {
+    text-decoration: line-through;
+}
+
+.text-line-bottom {
+    text-decoration: underline;
+}
+
+.text-line-none {
+    text-decoration: none;
+}
+
+.text-overflow{
+	white-space: nowrap; 
+		overflow: hidden; 
+	   text-overflow: ellipsis;
+}
+.text-slant{
+    font-style: italic;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-bolder{
+    font-weight: bolder;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.text-normal{
+    font-weight: normal;
+}
+
+.text-lighter{
+    font-weight: lighter;
+}
+
+.text-italic-bold{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.text-slant-bold{
+    font-style: italic;
+    font-weight: bold;
+}
+/* hover */
+/*
+NOTE
+> 07/24/2021 - A hover border has been added : add
+*/
+.hover-bg:hover{
+    background-color:#549fee;
+    border:1px solid #549fee;
+}
+.hover-bg-blue:hover{
+    background-color:#4d4dff;
+    border:1px solid #4d4dff;
+}
+.hover-bg-white:hover{
+    background-color:rgb(221, 221, 221);
+    border:1px solid rgb(221, 221, 221);
+}
+
+.hover-bg-black:hover{
+    background-color:#1d1d1d;
+    border:1px solid #1d1d1d;
+}
+
+.hover-bg-dark:hover{
+    background-color:#2c2c2c;
+    border:1px solid #2c2c2c;
+}
+
+.hover-bg-gray:hover{
+    background-color:#141414;
+    border:1px solid #141414;
+}
+
+.hover-bg-green:hover{
+    background-color:#00ff0d;
+    border:1px solid #00ff0d;
+}
+
+.hover-bg-red:hover{
+    background-color:#ff0000;
+    border:1px solid #ff0000;
+}
+
+.hover-bg-pink:hover{
+    background-color:#d400ff;
+    border:1px solid #d400ff;
+}
+
+.hover-bg-yellow:hover{
+    background-color:#ffd900;
+    border:1px solid #ffd900;
+}
+
+.hover-bg-aqua:hover{
+    background-color:#05d5e4;
+    border:1px solid #05d5e4;
+}
+
+.hover-bg-smoke:hover{
+    background-color: #e9e9e9;
+    border: 1px solid #e9e9e9;
+}
+
+.hover-bg-sky:hover{
+    background-color: #97c0e0;
+    border: 1px solid #97c0e0;
+}
+
+.hover-bg-purple:hover{
+    background-color: #675173;
+    border: 1px solid #675173;
+}
+
+.hover-border:hover {
+    border: 1px solid #549fee;
+}
+.hover-border-blue:hover {
+    border: 1px solid #4d4dff;
+}
+.hover-border-white:hover {
+ border: 1px solid rgb(221, 221, 221);
+}
+.hover-border-black:hover {
+ border: 1px solid #1d1d1d;
+}
+.hover-border-dark:hover {
+ border: 1px solid #2c2c2c;
+}
+.hover-border-gray:hover {
+ border: 1px solid #141414;
+}
+.hover-border-green:hover {
+ border: 1px solid #00ff0d;
+}
+.hover-border-red:hover {
+ border: 1px solid #ff0000;
+}
+.hover-border-pink:hover {
+ border: 1px solid #d400ff;
+}
+.hover-border-yellow:hover {
+ border: 1px solid #ffd900;
+}
+.hover-border-aqua:hover {
+ border: 1px solid #05d5e4;
+}
+.hover-border-smoke:hover{
+    border: solid #e9e9e9;
+}
+
+.hover-border-sky:hover{
+    border: solid #97c0e0;
+}
+
+.hover-border-purple:hover{
+    border: solid #675173;
+}
+
+.hover-text:hover{
+    color:#549fee;
+}
+
+.hover-text-blue:hover{
+    color:#4d4dff;
+}
+
+.hover-text-white:hover{
+    color:rgb(221, 221, 221);
+}
+
+.hover-text-black:hover{
+    color:#1d1d1d;
+}
+
+.hover-text-dark:hover{
+    color:#2c2c2c;
+}
+
+.hover-text-gray:hover{
+    color:#141414;
+}
+
+.hover-text-green:hover{
+    color:#00ff0d;
+}
+
+.hover-text-red:hover{
+    color:#ff0000;
+}
+
+.hover-text-pink:hover{
+    color:#ff0000;
+}
+
+.hover-text-yellow:hover{
+    color:#ffd900;
+}
+
+.hover-text-aqua:hover{
+    color:#05d5e4;
+}
+
+.hover-text-smoke:hover{
+    color: #e9e9e9;
+}
+
+.hover-text-sky:hover{
+    color: #97c0e0;
+}
+
+.hover-text-purple:hover{
+    color: #675173;
+}
+
+
+/* borde */
+.border {
+    border: 1px solid #007bff;
+}
+
+.border-blue {
+    border: 1px solid #0000ff;
+}
+.border-white {
+ border: 1px solid #ffffff;
+}
+.border-black {
+ border: 1px solid #000000;
+}
+.border-dark {
+ border: 1px solid #161616;
+}
+.border-gray {
+ border: 1px solid #3C3C3C;
+}
+.border-green {
+ border: 1px solid #0CDA17;
+}
+.border-red {
+ border: 1px solid #EB2A0C;
+}
+.border-pink {
+ border: 1px solid #F06FEC;
+}
+.border-yellow {
+ border: 1px solid #FFFF00;
+}
+.border-aqua {
+ border: 1px solid #0099a4;
+}
+.border-smoke {
+    border: 1px solid #f5f5f5;
+}
+.border-sky {
+    border: 1px solid #8ec1e9;
+}
+.border-purple {
+    border: 1px solid #684d77;
+}
+
+/* position */
+
+.left{
+	display: table; margin-left: 10px;
+}
+
+
+.center{
+	display: table; margin-left: auto; margin-right: auto;
+}
+
+
+.right{
+	display: table; margin-left: auto; margin-right: 10px;
+}
+
+/* box */
+.box {
+    display: block;
+    border: 2px solid #cfcfcf;
+    border-radius: 5px;
+    padding:15px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* document */
+/*
+NOTE
+> 07/24/2021 - block code : fix
+*/
+.docs{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.docs h1{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    border-bottom:2px solid #e2e2e2;
+    padding:8px 5px;
+    font-size: 32px;
+}
+.docs h2{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    border-bottom:2px solid #e2e2e2;
+    padding:8px 5px;
+    font-size: 24px;
+}
+
+.docs h3{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    color: #24292E;
+    font-size: 20px;
+}
+
+.docs h4{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    color: #24292E;
+    font-size: 16px;
+}
+
+.docs h5{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;;
+    font-size: 14px;
+    color: #24292E;
+}
+
+.docs h6{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;;
+    font-size: 13.6px;
+    color: #6A737D;
+}
+
+.docs a{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.docs p{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.docs hr{
+    display: block;
+    height: .25em;
+    padding: 0;
+    margin: 24px 0;
+    background-color: #e2e2e2;
+    border: 0px;
+}
+
+.docs li{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.docs li::before{
+    content: '\25FE ';
+}
+
+.docs .del{
+    display: block;
+    text-decoration: line-through;
+}
+
+.docs .quote{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    border-left:4px solid #e2e2e2;
+    padding:3px 5px;
+    color: rgb(170, 170, 170);
+    font-size: 15px;
+}
+
+.docs .quote-blue{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+    border-left:5px solid #2196F3;
+    padding:6px 6px;
+    background-color:#ddffff
+}
+
+.docs .quote-red{
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    display: block;
+    border-left:5px solid #da3737;
+    padding:6px 6px;
+    background-color:#ffdddd
+}
+
+.docs .block-code{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    font-size: 16px;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    border-radius: 6px;
+    background-color: #f1fcff;
+    color: #5a5a5a;
+}
+
+.docs .block-code .HTML:after{
+    content: '\003E';
+}
+
+.docs .block-code .HTML:before{
+    content: '\003C';
+}
+
+.docs .code{
+    font-weight: bolder;
+    padding: 2.72px 5.44px;
+    margin: 0;
+    font-size: 13.6;
+    color: #24292E;
+    background-color: #1B1F230D;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.docs .tag-red{
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+    padding: 4px 7px;
+    font-size: 13px;
+    color: #24292E;
+    background-color: #ff9595e1;
+    border-radius: 6px;
+}
+
+.docs .tag-blue{
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-weight: bolder;
+    padding: 4px 7px;
+    font-size: 13px;
+    color: #24292E;
+    background-color: #2195f3a1;
+    border-radius: 6px;
+}
+
+.docs .ic{
+    font-style: italic;
+}
+
+.docs .br{
+    font-weight: bolder;
+}
+
+.docs .ib{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.docs .title{
+    font-weight: bolder;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    padding:8px 5px;
+    font-size: 32px;
+}
+
+.docs .topic{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    display: block;
+    font-size: 20px;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    border-radius: 6px;
+    font-weight: bolder;
+}
+
+/* scroll bar */
+/*
+NOTE
+> 07/24/2021 - old scroll bar : del
+> 
+*/
+.scroll-bar-none::-webkit-scrollbar{
+    display: none;
+}
+/* scroll bar - modern */
+.scroll-bar-modern::-webkit-scrollbar{
+    width: 12px;
+}
+.scroll-bar-modern::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    border-right: 3px solid #fff;
+    background-color: #4b4b4b;
+}
+.scroll-bar-modern::-webkit-scrollbar-thumb:hover{
+    background-color: #888888;
+    }
+.scroll-bar-modern::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+/* progress Bar */
+.progress {
+    width: 60%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 0 auto;
+}
+
+.bar {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+/*card*/
+.card-color {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 330px;
+    height: 200px;
+    padding-left: 15px; 
+    border-radius: 8px;
+    display: inline-table;
+}
+
+.card-color h1 {
+    font-size: 32px;
+}
+
+.card-color p {
+    font-size: 20px;
+    padding-top: 40px;
+}
+
+.card-dark {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 550px;
+    height: 200px;
+    padding: 0 15px;
+    border-radius: 10px;
+    display: inline-table;
+    border: 2px solid #dbdbdb;
+}
+
+.card-dark .title {
+    line-height: 1px;
+    font-size: 25px;
+}
+
+.card-dark .subtitle {
+    line-height: 1px;
+    font-size: 20px;
+    color: #6C757D;
+}
+
+.card-dark a:link {
+    margin-left: 5px;
+    display: inline-table;
+}
+
+.card-light {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 550px;
+    height: 200px;
+    padding: 0 15px;
+    border-radius: 10px;
+    display: inline-table;
+    border: 2px solid #d8d8d8;
+}
+
+.card-light .title {
+    line-height: 1px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.card-light .subtitle {
+    line-height: 1px;
+    font-size: 20px;
+    color: #a7a7a7;
+}
+
+.card-light p{
+    color: white;
+}
+
+.card-light a{
+    color: white;
+}
+
+.card-light a:link {
+    color: rgb(148, 221, 255);
+    margin-left: 5px;
+    display: inline-table;
+}
+
+  /* Table */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e2e2e2;
+  }
+
+/* img */
+.img-opac-10{
+    opacity: 1;
+}
+.img-opac-9{
+    opacity: 0.9;
+}
+.img-opac-8{
+    opacity: 0.8;
+}
+.img-opac-7{
+    opacity: 0.7;
+}
+.img-opac-6{
+    opacity: 0.6;
+}
+.img-opac-5{
+    opacity: 0.5;
+}
+.img-opac-4{
+    opacity: 0.4;
+}
+.img-opac-3{
+    opacity: 0.3;
+}
+.img-opac-2{
+    opacity: 0.2;
+}
+.img-opac-1{
+    opacity: 0.1;
+}
+
+/* Tool tip*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .tooltip .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/* container , grid */
+/*
+NOTE
+> 07/26/2021 - grid system : add
+*/
+.grid {
+    display: block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid .row {
+    display: block;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .grid .row:after {
+    content: " ";
+    clear: both;
+    display: table;
+    line-height: 0;
+  }
+  .grid .row .col {
+    vertical-align: top;
+    float: left;
+    padding: 12px;
+    display: inline-block;
+  }
+  .grid .row .col-1 {
+    width: calc(8.33% - 2 * 12px);
+  }
+  .grid .row .col-2 {
+    width: calc(16.66% - 2 * 12px);
+  }
+  .grid .row .col-3 {
+    width: calc(24.99% - 2 * 12px);
+  }
+  .grid .row .col-4 {
+    width: calc(33.33% - 2 * 12px);
+  }
+  .grid .row .col-5 {
+    width: calc(41.66% - 2 * 12px);
+  }
+  .grid .row .col-6 {
+    width: calc(49.99% - 2 * 12px);
+  }
+  .grid .row .col-7 {
+    width: calc(58.33% - 2 * 12px);
+  }
+  .grid .row .col-8 {
+    width: calc(66.66% - 2 * 12px);
+  }
+  .grid .row .col-9 {
+    width: calc(74.99% - 2 * 12px);
+  }
+  .grid .row .col-10 {
+    width: calc(83.33% - 2 * 12px);
+  }
+  .grid .row .col-11 {
+    width: calc(91.66% - 2 * 12px);
+  }
+  .grid .row .col-12 {
+    width: calc(99.99% - 2 * 12px);
+  }
+
+  /* 1280px */
+  @media (max-width: 1280px) {
+    .grid .row .col-1, .grid .row .col--1 {
+      width: calc(8.33% - 2 * 12px);
+    }
+    .grid .row .col-2, .grid .row .col-2 {
+      width: calc(16.66% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-3, .siimple-grid-col-xl--3 {
+      width: calc(24.99% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-4, .siimple-grid-col-xl--4 {
+      width: calc(33.33% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-5, .siimple-grid-col-xl--5 {
+      width: calc(41.66% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-6, .siimple-grid-col-xl--6 {
+      width: calc(49.99% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-7, .siimple-grid-col-xl--7 {
+      width: calc(58.33% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-8, .siimple-grid-col-xl--8 {
+      width: calc(66.66% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-9, .siimple-grid-col-xl--9 {
+      width: calc(74.99% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-10, .siimple-grid-col-xl--10 {
+      width: calc(83.33% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-11, .siimple-grid-col-xl--11 {
+      width: calc(91.66% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-12, .siimple-grid-col-xl--12 {
+      width: calc(99.99% - 2 * 12px);
+    }
+    .siimple-grid-col--xl-hide {
+      display: none !important;
+    }
+  }
+  /* 960px */
+  @media (max-width: 960px) {
+    .grid .row .col-1, .grid .row .col-1 {
+      width: calc(8.33% - 2 * 12px);
+    }
+    .grid .row .col-2, .grid .row .col-2 {
+      width: calc(16.66% - 2 * 12px);
+    }
+    .grid .row .col-3, .grid .row .col-3 {
+      width: calc(24.99% - 2 * 12px);
+    }
+    .grid .row .col-4, .grid .row .col-4 {
+      width: calc(33.33% - 2 * 12px);
+    }
+    .grid .row .col-5, .grid .row .col-5 {
+      width: calc(41.66% - 2 * 12px);
+    }
+    .grid .row .col-6, .grid .row .col-6 {
+      width: calc(49.99% - 2 * 12px);
+    }
+    .grid .row .col-7, .grid .row .col-7 {
+      width: calc(58.33% - 2 * 12px);
+    }
+    .grid .row .col-8, .grid .row .col-8 {
+      width: calc(66.66% - 2 * 12px);
+    }
+    .grid .row .col-9, .grid .row .col-9 {
+      width: calc(74.99% - 2 * 12px);
+    }
+    .grid .row .col-10, .grid .row .col-10 {
+      width: calc(83.33% - 2 * 12px);
+    }
+    .grid .row .col-11, .grid .row .col-11 {
+      width: calc(91.66% - 2 * 12px);
+    }
+    .grid .row .col-12, .grid .row .col-12 {
+      width: calc(99.99% - 2 * 12px);
+    }
+    .grid .row .col-hide {
+      display: none !important;
+    }
+  }
+  @media (max-width: 768px) {
+    .grid .row .col-1, .grid .row .col-1 {
+      width: calc(8.33% - 2 * 12px);
+    }
+    .grid .row .col-2, .grid .row .col-2 {
+      width: calc(16.66% - 2 * 12px);
+    }
+    .grid .row .col-3, .grid .row .col-3 {
+      width: calc(24.99% - 2 * 12px);
+    }
+    .grid .row .col-4, .grid .row .col-4 {
+      width: calc(33.33% - 2 * 12px);
+    }
+    .grid .row .col-5, .grid .row .col-5 {
+      width: calc(41.66% - 2 * 12px);
+    }
+    .grid .row .col-6, .grid .row .col-6 {
+      width: calc(49.99% - 2 * 12px);
+    }
+    .grid .row .col-7, .grid .row .col-7 {
+      width: calc(58.33% - 2 * 12px);
+    }
+    .grid .row .col-8, .grid .row .col-8 {
+      width: calc(66.66% - 2 * 12px);
+    }
+    .grid .row .col-9, .grid .row .col-9 {
+      width: calc(74.99% - 2 * 12px);
+    }
+    .grid .row .col-10, .grid .row .col-10 {
+      width: calc(83.33% - 2 * 12px);
+    }
+    .grid .row .col-11, .grid .row .col-11 {
+      width: calc(91.66% - 2 * 12px);
+    }
+    .grid .row .col-12, .grid .row .col-12 {
+      width: calc(99.99% - 2 * 12px);
+    }
+    .grid .row .col-hide {
+      display: none !important;
+    }
+  }
+  /* 600px */
+  @media (max-width: 600px) {
+    .grid .row .col-1, .grid .row .col-1 {
+      width: calc(8.33% - 2 * 12px);
+    }
+    .grid .row .col-2, .grid .row .col-2 {
+      width: calc(16.66% - 2 * 12px);
+    }
+    .grid .row .col-3, .grid .row .col-3 {
+      width: calc(24.99% - 2 * 12px);
+    }
+    .grid .row .col-4, .grid .row .col-4 {
+      width: calc(33.33% - 2 * 12px);
+    }
+    .grid .row .col-5, .grid .row .col-5 {
+      width: calc(41.66% - 2 * 12px);
+    }
+    .grid .row .col-6, .grid .row .col-6 {
+      width: calc(49.99% - 2 * 12px);
+    }
+    .grid .row .col-7, .grid .row .col-7 {
+      width: calc(58.33% - 2 * 12px);
+    }
+    .grid .row .col-8, .grid .row .col-8 {
+      width: calc(66.66% - 2 * 12px);
+    }
+    .grid .row .col-9, .grid .row .col-9 {
+      width: calc(74.99% - 2 * 12px);
+    }
+    .grid .row .col-10, .grid .row .col-10 {
+      width: calc(83.33% - 2 * 12px);
+    }
+    .grid .row .col-11, .grid .row .col-11 {
+      width: calc(91.66% - 2 * 12px);
+    }
+    .grid .row .col-12, .grid .row .col-12 {
+      width: calc(99.99% - 2 * 12px);
+    }
+    .grid .row .col-hide {
+      display: none !important;
+    }
+  }
+  /* 480px */
+  @media (max-width: 480px) {
+    .grid .row .col-1, .grid .row .col-1 {
+      width: calc(8.33% - 2 * 12px);
+    }
+    .grid .row .col-2, .grid .row .col-2 {
+      width: calc(16.66% - 2 * 12px);
+    }
+    .grid .row .col-3, .grid .row .col-3 {
+      width: calc(24.99% - 2 * 12px);
+    }
+    .grid .row .col-4, .grid .row .col-4 {
+      width: calc(33.33% - 2 * 12px);
+    }
+    .grid .row .col-5, .grid .row .col-5 {
+      width: calc(41.66% - 2 * 12px);
+    }
+    .grid .row .col-6, .grid .row .col-6 {
+      width: calc(49.99% - 2 * 12px);
+    }
+    .grid .row .col-7, .grid .row .col-7 {
+      width: calc(58.33% - 2 * 12px);
+    }
+    .grid .row .col-8, .grid .row .col-8 {
+      width: calc(66.66% - 2 * 12px);
+    }
+    .grid .row .col-9, .grid .row .col-9 {
+      width: calc(74.99% - 2 * 12px);
+    }
+    .grid .row .col-10, .grid .row .col-10 {
+      width: calc(83.33% - 2 * 12px);
+    }
+    .grid .row .col-11, .grid .row .col-11 {
+      width: calc(91.66% - 2 * 12px);
+    }
+    .grid .row .col-12, .grid .row .col-12 {
+      width: calc(99.99% - 2 * 12px);
+    }
+    .grid .row .col-hide {
+      display: none !important;
+    }
+  }
+  
+
+/* [insight]angle */
+/*
+NOTE
+> 07/25/2021 - insight angle class : add
+*/
+.angle-0 {transform: rotate(0deg) }
+.angle-1 {transform: rotate(1deg) }
+.angle-2 {transform: rotate(2deg) }
+.angle-3 {transform: rotate(3deg) }
+.angle-4 {transform: rotate(4deg) }
+.angle-5 {transform: rotate(5deg) }
+.angle-6 {transform: rotate(6deg) }
+.angle-7 {transform: rotate(7deg) }
+.angle-8 {transform: rotate(8deg) }
+.angle-9 {transform: rotate(9deg) }
+.angle-10{transform: rotate(10deg)}
+.angle-11{transform: rotate(11deg)}
+.angle-12{transform: rotate(12deg)}
+.angle-13{transform: rotate(13deg)}
+.angle-14{transform: rotate(14deg)}
+.angle-15{transform: rotate(15deg)}
+.angle-16{transform: rotate(16deg)}
+.angle-17{transform: rotate(17deg)}
+.angle-18{transform: rotate(18deg)}
+.angle-19{transform: rotate(19deg)}
+.angle-20{transform: rotate(20deg)}
+.angle-21{transform: rotate(21deg)}
+.angle-22{transform: rotate(22deg)}
+.angle-23{transform: rotate(23deg)}
+.angle-24{transform: rotate(24deg)}
+.angle-25{transform: rotate(25deg)}
+.angle-26{transform: rotate(26deg)}
+.angle-27{transform: rotate(27deg)}
+.angle-28{transform: rotate(28deg)}
+.angle-29{transform: rotate(29deg)}
+.angle-30{transform: rotate(30deg)}
+.angle-31{transform: rotate(31deg)}
+.angle-32{transform: rotate(32deg)}
+.angle-33{transform: rotate(33deg)}
+.angle-34{transform: rotate(34deg)}
+.angle-35{transform: rotate(35deg)}
+.angle-36{transform: rotate(36deg)}
+.angle-37{transform: rotate(37deg)}
+.angle-38{transform: rotate(38deg)}
+.angle-39{transform: rotate(39deg)}
+.angle-40{transform: rotate(40deg)}
+.angle-41{transform: rotate(41deg)}
+.angle-42{transform: rotate(42deg)}
+.angle-43{transform: rotate(43deg)}
+.angle-44{transform: rotate(44deg)}
+.angle-45{transform: rotate(45deg)}
+.angle-46{transform: rotate(46deg)}
+.angle-47{transform: rotate(47deg)}
+.angle-48{transform: rotate(48deg)}
+.angle-49{transform: rotate(49deg)}
+.angle-50{transform: rotate(50deg)}
+.angle-51{transform: rotate(51deg)}
+.angle-52{transform: rotate(52deg)}
+.angle-53{transform: rotate(53deg)}
+.angle-54{transform: rotate(54deg)}
+.angle-55{transform: rotate(55deg)}
+.angle-56{transform: rotate(56deg)}
+.angle-57{transform: rotate(57deg)}
+.angle-58{transform: rotate(58deg)}
+.angle-59{transform: rotate(59deg)}
+.angle-60{transform: rotate(60deg)}
+.angle-61{transform: rotate(61deg)}
+.angle-62{transform: rotate(62deg)}
+.angle-63{transform: rotate(63deg)}
+.angle-64{transform: rotate(64deg)}
+.angle-65{transform: rotate(65deg)}
+.angle-66{transform: rotate(66deg)}
+.angle-67{transform: rotate(67deg)}
+.angle-68{transform: rotate(68deg)}
+.angle-69{transform: rotate(69deg)}
+.angle-70{transform: rotate(70deg)}
+.angle-71{transform: rotate(71deg)}
+.angle-72{transform: rotate(72deg)}
+.angle-73{transform: rotate(73deg)}
+.angle-74{transform: rotate(74deg)}
+.angle-75{transform: rotate(75deg)}
+.angle-76{transform: rotate(76deg)}
+.angle-77{transform: rotate(77deg)}
+.angle-78{transform: rotate(78deg)}
+.angle-79{transform: rotate(79deg)}
+.angle-80{transform: rotate(80deg)}
+.angle-81{transform: rotate(81deg)}
+.angle-82{transform: rotate(82deg)}
+.angle-83{transform: rotate(83deg)}
+.angle-84{transform: rotate(84deg)}
+.angle-85{transform: rotate(85deg)}
+.angle-86{transform: rotate(86deg)}
+.angle-87{transform: rotate(87deg)}
+.angle-88{transform: rotate(88deg)}
+.angle-89{transform: rotate(89deg)}
+.angle-90{transform: rotate(90deg)}
+.angle-91{transform: rotate(91deg)}
+.angle-92{transform: rotate(92deg)}
+.angle-93{transform: rotate(93deg)}
+.angle-94{transform: rotate(94deg)}
+.angle-95{transform: rotate(95deg)}
+.angle-96{transform: rotate(96deg)}
+.angle-97{transform: rotate(97deg)}
+.angle-98{transform: rotate(98deg)}
+.angle-99{transform: rotate(99deg)}
+.angle-100{transform: rotate(100deg)}
+.angle-101{transform: rotate(101deg)}
+.angle-102{transform: rotate(102deg)}
+.angle-103{transform: rotate(103deg)}
+.angle-104{transform: rotate(104deg)}
+.angle-105{transform: rotate(105deg)}
+.angle-106{transform: rotate(106deg)}
+.angle-107{transform: rotate(107deg)}
+.angle-108{transform: rotate(108deg)}
+.angle-109{transform: rotate(109deg)}
+.angle-110{transform: rotate(110deg)}
+.angle-111{transform: rotate(111deg)}
+.angle-112{transform: rotate(112deg)}
+.angle-113{transform: rotate(113deg)}
+.angle-114{transform: rotate(114deg)}
+.angle-115{transform: rotate(115deg)}
+.angle-116{transform: rotate(116deg)}
+.angle-117{transform: rotate(117deg)}
+.angle-118{transform: rotate(118deg)}
+.angle-119{transform: rotate(119deg)}
+.angle-120{transform: rotate(120deg)}
+.angle-121{transform: rotate(121deg)}
+.angle-122{transform: rotate(122deg)}
+.angle-123{transform: rotate(123deg)}
+.angle-124{transform: rotate(124deg)}
+.angle-125{transform: rotate(125deg)}
+.angle-126{transform: rotate(126deg)}
+.angle-127{transform: rotate(127deg)}
+.angle-128{transform: rotate(128deg)}
+.angle-129{transform: rotate(129deg)}
+.angle-130{transform: rotate(130deg)}
+.angle-131{transform: rotate(131deg)}
+.angle-132{transform: rotate(132deg)}
+.angle-133{transform: rotate(133deg)}
+.angle-134{transform: rotate(134deg)}
+.angle-135{transform: rotate(135deg)}
+.angle-136{transform: rotate(136deg)}
+.angle-137{transform: rotate(137deg)}
+.angle-138{transform: rotate(138deg)}
+.angle-139{transform: rotate(139deg)}
+.angle-140{transform: rotate(140deg)}
+.angle-141{transform: rotate(141deg)}
+.angle-142{transform: rotate(142deg)}
+.angle-143{transform: rotate(143deg)}
+.angle-144{transform: rotate(144deg)}
+.angle-145{transform: rotate(145deg)}
+.angle-146{transform: rotate(146deg)}
+.angle-147{transform: rotate(147deg)}
+.angle-148{transform: rotate(148deg)}
+.angle-149{transform: rotate(149deg)}
+.angle-150{transform: rotate(150deg)}
+.angle-151{transform: rotate(151deg)}
+.angle-152{transform: rotate(152deg)}
+.angle-153{transform: rotate(153deg)}
+.angle-154{transform: rotate(154deg)}
+.angle-155{transform: rotate(155deg)}
+.angle-156{transform: rotate(156deg)}
+.angle-157{transform: rotate(157deg)}
+.angle-158{transform: rotate(158deg)}
+.angle-159{transform: rotate(159deg)}
+.angle-160{transform: rotate(160deg)}
+.angle-161{transform: rotate(161deg)}
+.angle-162{transform: rotate(162deg)}
+.angle-163{transform: rotate(163deg)}
+.angle-164{transform: rotate(164deg)}
+.angle-165{transform: rotate(165deg)}
+.angle-166{transform: rotate(166deg)}
+.angle-167{transform: rotate(167deg)}
+.angle-168{transform: rotate(168deg)}
+.angle-169{transform: rotate(169deg)}
+.angle-170{transform: rotate(170deg)}
+.angle-171{transform: rotate(171deg)}
+.angle-172{transform: rotate(172deg)}
+.angle-173{transform: rotate(173deg)}
+.angle-174{transform: rotate(174deg)}
+.angle-175{transform: rotate(175deg)}
+.angle-176{transform: rotate(176deg)}
+.angle-177{transform: rotate(177deg)}
+.angle-178{transform: rotate(178deg)}
+.angle-179{transform: rotate(719deg)}
+.angle-180{transform: rotate(180deg)}
+.angle-181{transform: rotate(181deg)}
+.angle-182{transform: rotate(182deg)}
+.angle-183{transform: rotate(183deg)}
+.angle-184{transform: rotate(184deg)}
+.angle-185{transform: rotate(185deg)}
+.angle-186{transform: rotate(186deg)}
+.angle-187{transform: rotate(187deg)}
+.angle-188{transform: rotate(188deg)}
+.angle-189{transform: rotate(189deg)}
+.angle-190{transform: rotate(190deg)}
+.angle-191{transform: rotate(191deg)}
+.angle-192{transform: rotate(192deg)}
+.angle-193{transform: rotate(193deg)}
+.angle-194{transform: rotate(194deg)}
+.angle-195{transform: rotate(195deg)}
+.angle-196{transform: rotate(196deg)}
+.angle-197{transform: rotate(197deg)}
+.angle-198{transform: rotate(198deg)}
+.angle-199{transform: rotate(199deg)}
+.angle-200{transform: rotate(200deg)}
+.angle-201{transform: rotate(201deg)}
+.angle-202{transform: rotate(202deg)}
+.angle-203{transform: rotate(203deg)}
+.angle-204{transform: rotate(204deg)}
+.angle-205{transform: rotate(205deg)}
+.angle-206{transform: rotate(206deg)}
+.angle-207{transform: rotate(207deg)}
+.angle-208{transform: rotate(208deg)}
+.angle-209{transform: rotate(209deg)}
+.angle-210{transform: rotate(210deg)}
+.angle-211{transform: rotate(211deg)}
+.angle-212{transform: rotate(212deg)}
+.angle-213{transform: rotate(213deg)}
+.angle-214{transform: rotate(214deg)}
+.angle-215{transform: rotate(215deg)}
+.angle-216{transform: rotate(216deg)}
+.angle-217{transform: rotate(217deg)}
+.angle-218{transform: rotate(218deg)}
+.angle-219{transform: rotate(219deg)}
+.angle-220{transform: rotate(220deg)}
+.angle-221{transform: rotate(221deg)}
+.angle-222{transform: rotate(222deg)}
+.angle-223{transform: rotate(223deg)}
+.angle-224{transform: rotate(224deg)}
+.angle-225{transform: rotate(225deg)}
+.angle-226{transform: rotate(226deg)}
+.angle-227{transform: rotate(227deg)}
+.angle-228{transform: rotate(228deg)}
+.angle-229{transform: rotate(229deg)}
+.angle-230{transform: rotate(230deg)}
+.angle-231{transform: rotate(231deg)}
+.angle-232{transform: rotate(232deg)}
+.angle-233{transform: rotate(233deg)}
+.angle-234{transform: rotate(234deg)}
+.angle-235{transform: rotate(235deg)}
+.angle-236{transform: rotate(236deg)}
+.angle-237{transform: rotate(237deg)}
+.angle-238{transform: rotate(238deg)}
+.angle-239{transform: rotate(239deg)}
+.angle-240{transform: rotate(240deg)}
+.angle-241{transform: rotate(241deg)}
+.angle-242{transform: rotate(242deg)}
+.angle-243{transform: rotate(243deg)}
+.angle-244{transform: rotate(244deg)}
+.angle-245{transform: rotate(245deg)}
+.angle-246{transform: rotate(246deg)}
+.angle-247{transform: rotate(247deg)}
+.angle-248{transform: rotate(248deg)}
+.angle-249{transform: rotate(249deg)}
+.angle-250{transform: rotate(250deg)}
+.angle-251{transform: rotate(251deg)}
+.angle-252{transform: rotate(252deg)}
+.angle-253{transform: rotate(253deg)}
+.angle-254{transform: rotate(254deg)}
+.angle-255{transform: rotate(255deg)}
+.angle-256{transform: rotate(256deg)}
+.angle-257{transform: rotate(257deg)}
+.angle-258{transform: rotate(258deg)}
+.angle-259{transform: rotate(259deg)}
+.angle-260{transform: rotate(260deg)}
+.angle-261{transform: rotate(261deg)}
+.angle-262{transform: rotate(262deg)}
+.angle-263{transform: rotate(263deg)}
+.angle-264{transform: rotate(264deg)}
+.angle-265{transform: rotate(265deg)}
+.angle-266{transform: rotate(266deg)}
+.angle-267{transform: rotate(267deg)}
+.angle-268{transform: rotate(268deg)}
+.angle-269{transform: rotate(269deg)}
+.angle-270{transform: rotate(270deg)}
+.angle-271{transform: rotate(271deg)}
+.angle-272{transform: rotate(272deg)}
+.angle-273{transform: rotate(273deg)}
+.angle-274{transform: rotate(274deg)}
+.angle-275{transform: rotate(275deg)}
+.angle-276{transform: rotate(276deg)}
+.angle-277{transform: rotate(277deg)}
+.angle-278{transform: rotate(278deg)}
+.angle-279{transform: rotate(279deg)}
+.angle-280{transform: rotate(280deg)}
+.angle-281{transform: rotate(281deg)}
+.angle-282{transform: rotate(282deg)}
+.angle-283{transform: rotate(283deg)}
+.angle-284{transform: rotate(284deg)}
+.angle-285{transform: rotate(285deg)}
+.angle-286{transform: rotate(286deg)}
+.angle-287{transform: rotate(287deg)}
+.angle-288{transform: rotate(288deg)}
+.angle-289{transform: rotate(289deg)}
+.angle-290{transform: rotate(290deg)}
+.angle-291{transform: rotate(291deg)}
+.angle-292{transform: rotate(292deg)}
+.angle-293{transform: rotate(293deg)}
+.angle-294{transform: rotate(294deg)}
+.angle-295{transform: rotate(295deg)}
+.angle-296{transform: rotate(296deg)}
+.angle-297{transform: rotate(297deg)}
+.angle-298{transform: rotate(298deg)}
+.angle-299{transform: rotate(299deg)}
+.angle-300{transform: rotate(300deg)}
+.angle-301{transform: rotate(301deg)}
+.angle-302{transform: rotate(302deg)}
+.angle-303{transform: rotate(303deg)}
+.angle-304{transform: rotate(304deg)}
+.angle-305{transform: rotate(305deg)}
+.angle-306{transform: rotate(306deg)}
+.angle-307{transform: rotate(307deg)}
+.angle-308{transform: rotate(308deg)}
+.angle-309{transform: rotate(309deg)}
+.angle-310{transform: rotate(310deg)}
+.angle-311{transform: rotate(311deg)}
+.angle-312{transform: rotate(312deg)}
+.angle-313{transform: rotate(313deg)}
+.angle-314{transform: rotate(314deg)}
+.angle-315{transform: rotate(315deg)}
+.angle-316{transform: rotate(316deg)}
+.angle-317{transform: rotate(317deg)}
+.angle-318{transform: rotate(318deg)}
+.angle-319{transform: rotate(319deg)}
+.angle-320{transform: rotate(320deg)}
+.angle-321{transform: rotate(321deg)}
+.angle-322{transform: rotate(322deg)}
+.angle-323{transform: rotate(323deg)}
+.angle-324{transform: rotate(324deg)}
+.angle-325{transform: rotate(325deg)}
+.angle-326{transform: rotate(326deg)}
+.angle-327{transform: rotate(327deg)}
+.angle-328{transform: rotate(328deg)}
+.angle-329{transform: rotate(329deg)}
+.angle-330{transform: rotate(330deg)}
+.angle-331{transform: rotate(331deg)}
+.angle-332{transform: rotate(332deg)}
+.angle-333{transform: rotate(333deg)}
+.angle-334{transform: rotate(334deg)}
+.angle-335{transform: rotate(335deg)}
+.angle-336{transform: rotate(336deg)}
+.angle-337{transform: rotate(337deg)}
+.angle-338{transform: rotate(338deg)}
+.angle-339{transform: rotate(339deg)}
+.angle-340{transform: rotate(340deg)}
+.angle-341{transform: rotate(341deg)}
+.angle-342{transform: rotate(342deg)}
+.angle-343{transform: rotate(343deg)}
+.angle-344{transform: rotate(344deg)}
+.angle-345{transform: rotate(345deg)}
+.angle-346{transform: rotate(346deg)}
+.angle-347{transform: rotate(347deg)}
+.angle-348{transform: rotate(348deg)}
+.angle-349{transform: rotate(349deg)}
+.angle-350{transform: rotate(350deg)}
+.angle-351{transform: rotate(351deg)}
+.angle-352{transform: rotate(352deg)}
+.angle-353{transform: rotate(353deg)}
+.angle-354{transform: rotate(354deg)}
+.angle-355{transform: rotate(355deg)}
+.angle-356{transform: rotate(356deg)}
+.angle-357{transform: rotate(357deg)}
+.angle-358{transform: rotate(358deg)}
+.angle-359{transform: rotate(359deg)}
+.angle-360{transform: rotate(360deg)}
