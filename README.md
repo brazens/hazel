@@ -1,14 +1,23 @@
 <p align="center"><a href="https://videt.xyz" target="_blank" rel="noopener noreferrer"><img width="300" src="https://asset.brazens.studio/images/1635768525582.png"></a></p>
 <p align="center">
    <a href="" target="_blank" rel="noopener noreferrer"><img width="100" src="https://img.shields.io/apm/l/vim-mode?" alt="videt_logo"></a>
-   <a href="#" target="_blank" rel="noopener noreferrer"><img width="135" src="https://img.shields.io/badge/Version-V%200.2.0-brightgreen" alt="videt_logo"></a>
+   <a href="#" target="_blank" rel="noopener noreferrer"><img width="135" src="https://img.shields.io/badge/Version-V%200.4.0-brightgreen" alt="videt_logo"></a>
 </p>
  
-<h1 align="center">About videt</h1>
+<h1>About videt</h1>
 videt is a web framework that helps you easily create the necessary elements for the web.
 For example, if you need 7 lines of CSS to make a nice button, videt only needs one line of class in your html.
 videt is an MIT-licensed open source project that anyone can use for free.
-<h2 align="center">support videt</h2>
+
+# How to use
+You can use it by connecting using cdn. Copy the code below.
+
+```HTML
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/brazens/videt@v0.4.0/dist/videt.min.css" integrity="sha384-BYWysEuve/bamx00orIu11N201JgZj0Bx0Z3EdcTEmKKl3cf6opMa2nZ3ZXT5Fur" crossorigin="anonymous">
+```
+
+
+<h2>support videt</h2>
 Videt is an open source project and everything is completely free.(except for related goods)However, maintaining the project is not possible without financial support, and that is why we are supported.
 
 > 
