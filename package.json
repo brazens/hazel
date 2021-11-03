@@ -1,0 +1,19 @@
+{
+  "name": "videt",
+  "version": "0.4.2",
+  "description": "videt is a framework designed to make web design easier. Utility class and pre-designed class are provided. ",
+  "style": "dist/videt.css",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "css",
+    "front-end",
+    "framework",
+    "web",
+    "utility",
+    "design"
+  ],
+  "author": "dev-potato",
+  "license": "MIT"
+}
