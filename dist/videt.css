@@ -776,7 +776,7 @@
 .angle-359{transform: rotate(359deg)}
 .angle-360{transform: rotate(360deg)}
 /* text align */
-text-left{text-align: left;}
-text-right{text-align: right;}
-text-center{text-align: center;}
-text-justify{text-align: justify;}
+.text-left{text-align: left;}
+.text-right{text-align: right;}
+.text-center{text-align: center;}
+.text-justify{text-align: justify;}
