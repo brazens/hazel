@@ -780,3 +780,9 @@
 .text-right{text-align: right;}
 .text-center{text-align: center;}
 .text-justify{text-align: justify;}
+/* overflow */
+.overflow-visible{overflow: visible;}
+.overflow-hidden{overflow: hidden;}
+.overflow-clip{overflow: clip;}
+.overflow-scroll{overflow: scroll;}
+.overflow-auto{overflow: auto;}
