@@ -3,7 +3,7 @@
 <p align="center">
    <a href="https://github.com/brazens/videt/blob/main/LICENSE" target="_blank" rel="noopener noreferrer"><img height="25px" src="https://img.shields.io/apm/l/vim-mode?style=for-the-badge" alt="videt_license"></a>
    <a href="https://github.com/brazens/videt/releases" target="_blank" rel="noopener noreferrer"><img height="25px" src="https://img.shields.io/badge/Version-V%200.4.2-brightgreen?style=for-the-badge" alt="videt_logo"></a>
-   <a href="https://github.com/brazens/videt/releases" target="_blank" rel="noopener noreferrer"><img height="25px" src="https://img.shields.io/npm/dt/videt?color=red&style=for-the-badge" alt="videt_npm"></a>
+   <a href="https://www.npmjs.com/package/videt" target="_blank" rel="noopener noreferrer"><img height="25px" src="https://img.shields.io/npm/dt/videt?color=red&style=for-the-badge" alt="videt_npm"></a>
 </p>
  
 <h1>About videt</h1>
