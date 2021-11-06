@@ -960,6 +960,11 @@ p{
 .edge-t,.edge-t-25{border-top-left-radius:.25rem;border-top-right-radius:.25rem;}
 .edge-l,.edge-l-25{border-bottom-left-radius:.25rem;border-top-left-radius:.25rem;}
 .edge-r,.edge-r-25{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem;}
+/* text decoration, line */
+.line-bottom{text-decoration: underline;}
+.line-through{text-decoration: line-through;}
+.line-top{text-decoration: overline;}
+.line-none{text-decoration: none;}
 
 /* design class */
 /* badge */
