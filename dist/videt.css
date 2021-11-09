@@ -1235,6 +1235,13 @@ p{
 .max-h-240{max-height: 24rem;}
 .max-h-250{max-height: 25rem;}
 .max-h-full{max-height: 100%;}
+/* align-items */
+.items-start{align-items: flex-start;}
+.items-end{align-items: flex-end;}
+.items-center{align-items: center;}
+.items-stretch{align-items: stretch;}
+.items-baseline{align-items: baseline;}
+
 /* design class */
 /* badge */
 .badge{
