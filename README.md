@@ -13,6 +13,8 @@ videt is an MIT-licensed open source project that anyone can use for free.
 
 Please click the **star** on [**github**](https://github.com/brazens/videt) It is a force for development.
 
+[**Read web documents **](https://videt.xyz/docs)
+
 # How to use
 You can download and use it through cdn connection or npm.
 
